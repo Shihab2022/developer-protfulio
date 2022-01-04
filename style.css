@@ -15,8 +15,12 @@
     margin-top: 20px;
 }
 
+.header-writtrn-section p {
+    color: rgb(70, 72, 75);
+}
+
 .header-writtrn-section .btn {
-    font-size: 20px;
+    font-size: 17px;
     padding: 8px 25px;
     background: linear-gradient(#e66465, #9198e5);
     text-decoration: none;
@@ -25,7 +29,7 @@
     color: #fff;
 }
 
-.header-section h1 {
+.header-writtrn-section h1 {
     font-size: 50px;
 }
 
@@ -41,4 +45,15 @@
 .header-div img {
     width: 100%;
     width: 90%;
+}
+
+.drem-section {
+    display: flex;
+    margin-top: 70px;
+}
+
+.drem-section img {
+    width: 90%;
+    height: 90%;
+    padding: 40px;
 }
