@@ -1,0 +1,44 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.header-writtrn-section {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header-writtrn-section .btn {
+    font-size: 20px;
+    padding: 8px 25px;
+    background: linear-gradient(#e66465, #9198e5);
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.header-section h1 {
+    font-size: 50px;
+}
+
+.header-section span {
+    color: orange;
+}
+
+.header-div {
+    width: 50%;
+    padding: 40px;
+}
+
+.header-div img {
+    width: 100%;
+    width: 90%;
+}
