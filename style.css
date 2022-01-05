@@ -98,4 +98,8 @@ span {
         align-items: center;
         justify-content: center;
     }
+    .card-one {
+        width: 80%;
+        margin: 5%;
+    }
 }
