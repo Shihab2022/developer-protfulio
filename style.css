@@ -15,7 +15,7 @@
     margin-top: 20px;
 }
 
-.header-writtrn-section p {
+p {
     color: rgb(70, 72, 75);
 }
 
@@ -29,7 +29,7 @@
     color: #fff;
 }
 
-.header-writtrn-section h1 {
+h1 {
     font-size: 50px;
 }
 
@@ -38,7 +38,7 @@ span {
 }
 
 .header-div {
-    width: 50%;
+    width: 80%;
     padding: 40px;
 }
 
@@ -73,10 +73,29 @@ span {
     width: 40%;
     margin: 5%;
     box-shadow: 5px 7px 40px grey;
-    height: 80%;
+    height: 90%;
     padding: 40px 15px;
     border-radius: 0px 10px 10px 0;
     border-left: 7px solid;
     border-image: linear-gradient( 180deg, lightsalmon, tomato);
     border-image-slice: 1;
+}
+
+.footer p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-section {
+        display: block;
+    }
+    .drem-section {
+        display: block;
+    }
+    .two-card-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 }
